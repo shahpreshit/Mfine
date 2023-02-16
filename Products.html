@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link rel="stylesheet" href="./Products.css" />
+    <link rel="stylesheet" href="./fontawesome-free-6.1.2-web/css/all.css" />
+  </head>
+  <body>
+    <section class="Nav">
+      <div class="navbar">
+        <div class="logo">
+          <img src="./images/logo-dark.png" alt="" />
+        </div>
+        <div class="list">
+          <ul>
+            <li><a href="./Home.html">Home</a></li>
+            <li><a href="./Products.html">Products</a></li>
+            <li><a href="./Blog.html">Blog</a></li>
+            <li><a href="./About.html">About</a></li>
+            <li><a href="./Contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="side_buttons">
+          <a href="" class="uicon"><i class="fa-regular fa-user"></i>Sign up</a>
+          <button class="ubutton">
+            <i class="fa-solid fa-plus"></i>Add Listing
+          </button>
+          <div class="rsbutt">
+            <a href="" class="rp_button"
+              ><i class="fa-solid fa-plus icon1"></i
+            ></a>
+            <a href="" class="rp_button1"
+              ><i class="fa-regular fa-user icon2"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="product_detail">
+      <div class="inner_product_detail">
+        <h2>Product Detail</h2>
+        <div class="pdetail">
+          <ul>
+            <li>Home ></li>
+            <li>Product Detail</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="product_name">
+      <div class="product_row">
+        <div class="pldiv">
+          <div id="mainp" class="pimage"></div>
+          <div class="pimage_row">
+            <div
+              id="product1"
+              onclick="cImage(this)"
+              class="pimages product1"
+            ></div>
+            <div
+              id="product2"
+              onclick="cImage(this)"
+              class="pimages product2"
+            ></div>
+            <div
+              id="product3"
+              onclick="cImage(this)"
+              class="pimages product3"
+            ></div>
+            <div
+              id="product4"
+              onclick="cImage(this)"
+              class="pimages product4"
+            ></div>
+            <div
+              id="product5"
+              onclick="cImage(this)"
+              class="pimages product5"
+            ></div>
+          </div>
+        </div>
+        <div class="prdiv">
+          <h2>Hi-Spec Drill</h2>
+          <p>$45 $39.99</p>
+          <p class="prdiv_rating">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-regular fa-star"></i>(4 Customer reviews)
+          </p>
+
+          <p>
+            Ut tristique et egestas quis ipsum suspendisse ultrices gravida.
+            Porttitor rhoncus dolor purus non. Eros donec ac odio tempor orci
+            dapibus. Varius vel pharetra vel turpis nunc eget lorem dolor.
+            Tristique nulla aliquet enim tortor at auctor odio pellentesque
+            diam.
+          </p>
+
+          <p>
+            Pellentesque habitant morbi tristique senectus et netus et malesuada
+            fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
+            ultricies eget, tempor sit amet, ante.
+          </p>
+
+          <p>
+            SKU: 05
+            <br />
+            Categories: Constrction Tools
+            <br />
+            Availability: 500 In Stock
+          </p>
+          <br />
+          <input id="quantity" value="1" />
+          <button onclick="plus()" class="qb qb1">+</button>
+          <button onclick="minus()" class="qb qb2">-</button>
+          <button class="qb3">Add To Cart</button>
+        </div>
+      </div>
+      <div onclick="showP(this)" class="description">
+        Description <span id="plu">+</span>
+      </div>
+      <div id="despp" class="desp">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+        sagittis orci ac odio dictum tincidunt. Donec ut metus leo. Class aptent
+        taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+        himenaeos. Sed luctus, dui eu sagittis sodales, nulla nibh sagittis
+        augue, vel porttitor diam enim non metus. Vestibulum aliquam augue
+        neque. Phasellus tincidunt odio eget ullamcorper efficitur. Cras
+        placerat ut turpis pellentesque vulputate. Nam sed consequat tortor.
+        Curabitur finibus sapien dolor. Ut eleifend tellus nec erat pulvinar
+        dignissim. Nam non arcu purus. Vivamus et massa massa.
+      </div>
+      <div class="description">Review <span class="plu">+</span></div>
+    </section>
+    <section class="related_products">
+      <h2
+        style="
+          margin-left: 200px;
+          margin-bottom: 50px;
+          font-size: 40px;
+          font-weight: 500;
+        "
+      >
+        Related Products
+      </h2>
+      <div class="pro_row1">
+        <div class="items items1">
+          <div class="new">NEW</div>
+          <ul class="fade-in-bottom">
+            <li><i class="fa-regular fa-eye"></i></li>
+            <li><i class="fa-regular fa-heart"></i></li>
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+          </ul>
+        </div>
+        <div class="items items2">
+          <div class="new">NEW</div>
+          <ul class="fade-in-bottom">
+            <li><i class="fa-regular fa-eye"></i></li>
+            <li><i class="fa-regular fa-heart"></i></li>
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+          </ul>
+        </div>
+        <div class="items items3">
+          <div class="new">NEW</div>
+          <ul class="fade-in-bottom">
+            <li><i class="fa-regular fa-eye"></i></li>
+            <li><i class="fa-regular fa-heart"></i></li>
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+          </ul>
+        </div>
+        <div class="items items4">
+          <div class="new">NEW</div>
+          <ul class="fade-in-bottom">
+            <li><i class="fa-regular fa-eye"></i></li>
+            <li><i class="fa-regular fa-heart"></i></li>
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+          </ul>
+        </div>
+      </div>
+      <div class="pro_row2">
+        <div class="items items5">
+          <div class="new">NEW</div>
+          <ul class="fade-in-bottom">
+            <li><i class="fa-regular fa-eye"></i></li>
+            <li><i class="fa-regular fa-heart"></i></li>
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+          </ul>
+        </div>
+        <div class="items items6">
+          <div class="new">NEW</div>
+          <ul class="fade-in-bottom">
+            <li><i class="fa-regular fa-eye"></i></li>
+            <li><i class="fa-regular fa-heart"></i></li>
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+          </ul>
+        </div>
+        <div class="items items7">
+          <div class="new">NEW</div>
+          <ul class="fade-in-bottom">
+            <li><i class="fa-regular fa-eye"></i></li>
+            <li><i class="fa-regular fa-heart"></i></li>
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+          </ul>
+        </div>
+        <div class="items items8">
+          <div class="new">NEW</div>
+          <ul class="fade-in-bottom">
+            <li><i class="fa-regular fa-eye"></i></li>
+            <li><i class="fa-regular fa-heart"></i></li>
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="foot">
+      <div class="footer">
+        <div class="subscribe">
+          <div class="text">Subscribe Our Newsletter</div>
+          <div class="input" placeholder="">
+            <input type="text" style="outline: none" /> <button>Submit</button>
+          </div>
+        </div>
+        <div class="footer_links">
+          <div class="flinks">
+            <h3>About</h3>
+            <p>
+              The printing and typesetting industry Ipsum has been the
+              industry's thanks to your passion, hard work creativity
+            </p>
+            <div class="slogo">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+          <div class="flinks">
+            <h3>Quick Links</h3>
+            <ul>
+              <li>About</li>
+              <li>Lab Test</li>
+              <li>Medicine</li>
+              <li>Blog</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+          <div class="flinks">
+            <h3>Quick Links</h3>
+            <ul>
+              <li>About</li>
+              <li>Lab Test</li>
+              <li>Medicine</li>
+              <li>Blog</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+          <div class="flinks">
+            <h3>Community</h3>
+            <p>Australia</p>
+            <p>+41 232 525 5257</p>
+            <p>+41 856 525 5369</p>
+            <p>hello@Servicefinder.com</p>
+            <p>hello@aontheme.com</p>
+          </div>
+        </div>
+        <p class="copy">Copyright 2022 | Aone Theme. All Rights Reserved</p>
+      </div>
+    </section>
+
+    <script src="./Products.js"></script>
+  </body>
+</html>

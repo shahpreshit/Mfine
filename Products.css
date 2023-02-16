@@ -1,0 +1,580 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+/* navbar css start */
+
+.navbar {
+  height: 85px;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 7;
+  background: white;
+}
+.logo {
+  margin-left: 15px;
+}
+.list ul {
+  list-style: none;
+  display: flex;
+}
+.list ul li {
+  margin: 0px 18px;
+  font-size: 16px;
+}
+.list li:nth-child(1) a {
+  color: #ff8a00 !important;
+}
+.list a {
+  text-decoration: none;
+  color: black;
+}
+.list a:hover {
+  color: #ff8a00;
+}
+.side_buttons {
+  margin-right: 15px;
+}
+.side_buttons a {
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+}
+.side_buttons button {
+  background: #ff8a00;
+  color: white;
+  border: none;
+  padding: 14px 25px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.side_buttons .rp_button {
+  display: none;
+}
+.side_buttons .rp_button1 {
+  display: none;
+}
+
+.side_buttons button i {
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 10px;
+  padding: 3px;
+  margin: 3px;
+  margin-right: 5px;
+  align-items: center;
+}
+.side_buttons a i {
+  margin: 3px;
+}
+
+.footer {
+  margin-top: 300px;
+  height: 600px;
+  width: 100%;
+  background: #d2e7e2;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  border-top: 1px solid #647672;
+  box-sizing: border-box;
+}
+
+.footer .copy {
+  color: #6b6b6b;
+}
+.subscribe {
+  height: 40px;
+  padding: 20px;
+  width: 70%;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  background: #c2ded7;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+}
+.subscribe .text {
+  font-size: 27px;
+}
+.subscribe button {
+  background: #ff8a00;
+  padding: 5px 25px;
+  height: 41.8px;
+  border: none;
+  position: absolute;
+  right: 252px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  color: white;
+}
+
+.subscribe input {
+  width: 560px;
+  height: 40px;
+  border: none;
+  border-radius: 12px;
+  position: relative;
+}
+
+.flinks {
+  text-align: left;
+  /* margin: 10px; */
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #aabbb7;
+  padding-bottom: 40px;
+}
+.footer_links {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  z-index: -1;
+}
+.flinks ul {
+  list-style: none;
+  padding-left: 0%;
+}
+.flinks li {
+  margin: 10px 0px;
+  color: #6b6b6b;
+}
+.flinks p {
+  font-size: 14px;
+}
+.flinks h3 {
+  font-weight: 700;
+  position: relative;
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+.flinks h3::after {
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
+  content: "";
+  width: 60px;
+  height: 2px;
+  background: #ff8a00;
+}
+
+.slogo i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #ff8a00 !important;
+  background: #fff;
+  border-radius: 30px;
+  margin: 0px 5px;
+}
+
+/* footer section ends */
+
+.product_detail {
+  margin-top: 80px;
+  width: 100%;
+  height: 45vh;
+  border: 1px solid black;
+  background: url(./images/job-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+.inner_product_detail {
+  width: 100%;
+  height: 100%;
+  background: #095945a7;
+  color: white;
+  text-align: center;
+
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+.inner_product_detail h2 {
+  font-size: 58px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.inner_product_detail ul {
+  list-style: none;
+  display: flex;
+  padding-left: 0%;
+}
+.inner_product_detail li:nth-child(2) {
+  margin-left: 5px;
+}
+.pdetail {
+  /* border: 1px solid white; */
+  width: 164px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ----------------------------------------------------------------------------------------- */
+.product_name {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.product_name .product_row {
+  display: contents;
+  /* border: 1px solid red; */
+  height: 750px;
+  padding: 30px;
+  display: flex;
+  margin-top: 80px;
+}
+.product_row .pldiv {
+  /* border: 1px solid red; */
+  width: 40%;
+  padding-left: 150px;
+}
+.product_row .prdiv {
+  /* border: 1px solid green; */
+  width: 60%;
+  padding-left: 20px;
+  padding-right: 200px;
+}
+.prdiv h2 {
+  margin-top: 5px;
+  font-size: 40px;
+}
+.prdiv_rating i {
+  color: #ff8a00;
+}
+.prdiv p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.pimage {
+  background-image: url(./images/product1.jpg);
+  background-size: cover;
+  height: 550px;
+  border: 1px solid lightgrey;
+}
+.pimages {
+  width: 90px;
+  height: 100px;
+  border: 1px solid lightgray;
+}
+.product1 {
+  background-image: url(./images/product1.jpg);
+  background-size: cover;
+}
+.product2 {
+  background-image: url(./images/product2.jpg);
+  background-size: cover;
+}
+.product3 {
+  background-image: url(./images/product3.jpg);
+  background-size: cover;
+}
+.product4 {
+  background-image: url(./images/product4.jpg);
+  background-size: cover;
+}
+.product5 {
+  background-image: url(./images/product5.jpg);
+  background-size: cover;
+}
+.pimage_row {
+  margin-top: 20px;
+  height: 100px;
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-between;
+}
+#quantity {
+  width: 100px;
+  height: 40px;
+  outline: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 1px solid lightgray;
+  padding-left: 5px;
+  position: relative;
+}
+.qb {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  background: white;
+  border: 1px solid lightgray;
+}
+.qb1 {
+  position: absolute;
+  left: 47.5%;
+}
+.qb2 {
+  position: absolute;
+  left: 47.5%;
+  bottom: -13%;
+}
+.qb3 {
+  padding: 15px 10px;
+  margin-left: 10px;
+  border: none;
+  background: #ff8a00;
+  color: white;
+}
+.description {
+  width: 80%;
+  height: 40px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-top: 10px;
+  box-shadow: 1px 1px 5px lightgray;
+  box-sizing: border-box;
+}
+.desp {
+  width: 80%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  box-shadow: 1px 1px 5px lightgray;
+  padding: 10px;
+  box-sizing: border-box;
+  display: none;
+}
+.description #plu {
+  float: right;
+  padding-right: 10px;
+}
+.plu {
+  float: right;
+  padding-right: 10px;
+}
+.related_products {
+  width: 100%;
+  height: 100vh;
+  border: none;
+  background: #f9f9f9;
+  padding-top: 100px;
+}
+.pro_row1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 200px;
+  /* border: 1px solid red; */
+}
+.pro_row2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 200px;
+  /* border: 1px solid red; */
+}
+.items {
+  width: 300px;
+  height: 350px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+.items:hover {
+}
+.items1 {
+  background: url(./images/product1.jpg);
+  position: relative;
+}
+.items2 {
+  background: url(./images/product2.jpg);
+  position: relative;
+}
+.items3 {
+  background: url(./images/product3.jpg);
+  position: relative;
+}
+.items4 {
+  background: url(./images/product4.jpg);
+  position: relative;
+}
+.items5 {
+  background: url(./images/product5.jpg);
+  position: relative;
+}
+.items6 {
+  background: url(./images/product6.jpg);
+  position: relative;
+}
+.items7 {
+  background: url(./images/product7.jpg);
+  position: relative;
+}
+.items8 {
+  background: url(./images/product8.jpg);
+  position: relative;
+}
+.items1 .new {
+  width: 60px;
+  height: 15px;
+  padding: 10px;
+  align-items: center;
+  border-radius: 5px;
+  background: navy;
+  color: white;
+  position: absolute;
+  top: 10%;
+  transform: rotate(270deg);
+  text-align: center;
+}
+.items2 .new {
+  width: 60px;
+  height: 15px;
+  padding: 10px;
+  align-items: center;
+  border-radius: 5px;
+  background: navy;
+  color: white;
+  position: absolute;
+  top: 10%;
+  transform: rotate(270deg);
+  text-align: center;
+}
+.items3 .new {
+  width: 60px;
+  height: 15px;
+  padding: 10px;
+  align-items: center;
+  border-radius: 5px;
+  background: navy;
+  color: white;
+  position: absolute;
+  top: 10%;
+  transform: rotate(270deg);
+  text-align: center;
+}
+.items4 .new {
+  width: 60px;
+  height: 15px;
+  padding: 10px;
+  align-items: center;
+  border-radius: 5px;
+  background: navy;
+  color: white;
+  position: absolute;
+  top: 10%;
+  transform: rotate(270deg);
+  text-align: center;
+}
+.items5 .new {
+  width: 60px;
+  height: 15px;
+  padding: 10px;
+  align-items: center;
+  border-radius: 5px;
+  background: navy;
+  color: white;
+  position: absolute;
+  top: 10%;
+  transform: rotate(270deg);
+  text-align: center;
+}
+.items6 .new {
+  width: 60px;
+  height: 15px;
+  padding: 10px;
+  align-items: center;
+  border-radius: 5px;
+  background: navy;
+  color: white;
+  position: absolute;
+  top: 10%;
+  transform: rotate(270deg);
+  text-align: center;
+}
+.items7 .new {
+  width: 60px;
+  height: 15px;
+  padding: 10px;
+  align-items: center;
+  border-radius: 5px;
+  background: navy;
+  color: white;
+  position: absolute;
+  top: 10%;
+  transform: rotate(270deg);
+  text-align: center;
+}
+.items8 .new {
+  width: 60px;
+  height: 15px;
+  padding: 10px;
+  align-items: center;
+  border-radius: 5px;
+  background: navy;
+  color: white;
+  position: absolute;
+  top: 10%;
+  transform: rotate(270deg);
+  text-align: center;
+}
+.items li {
+  border: 1px solid black;
+  width: 20px;
+  padding: 10px;
+  background: white;
+}
+.items ul {
+  list-style: none;
+  float: right;
+  margin-right: 20px;
+  margin-top: 40px;
+  display: none;
+}
+.slide-in-bottom {
+  -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2022-9-4 22:51:26
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-in-bottom
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-in-bottom {
+  0% {
+    -webkit-transform: translateY(1000px);
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-bottom {
+  0% {
+    -webkit-transform: translateY(1000px);
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

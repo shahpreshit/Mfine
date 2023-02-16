@@ -1,0 +1,737 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+/* navbar css start */
+
+.navbar {
+  height: 85px;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 7;
+  background: white;
+}
+.logo {
+  margin-left: 15px;
+}
+.list ul {
+  list-style: none;
+  display: flex;
+}
+.list ul li {
+  margin: 0px 18px;
+  font-size: 16px;
+}
+.list li:nth-child(1) a {
+  color: #ff8a00 !important;
+}
+.list a {
+  text-decoration: none;
+  color: black;
+}
+.list a:hover {
+  color: #ff8a00;
+}
+.side_buttons {
+  margin-right: 15px;
+}
+.side_buttons a {
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+}
+.side_buttons button {
+  background: #ff8a00;
+  color: white;
+  border: none;
+  padding: 14px 25px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.side_buttons .rp_button {
+  display: none;
+}
+.side_buttons .rp_button1 {
+  display: none;
+}
+
+.side_buttons button i {
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 10px;
+  padding: 3px;
+  margin: 3px;
+  margin-right: 5px;
+  align-items: center;
+}
+.side_buttons a i {
+  margin: 3px;
+}
+/* navbar css ends */
+
+.footer {
+  margin-top: 300px;
+  height: 600px;
+  width: 100%;
+  background: #d2e7e2;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  border-top: 1px solid #647672;
+  box-sizing: border-box;
+}
+
+.footer .copy {
+  color: #6b6b6b;
+}
+.subscribe {
+  /* height: 40px; */
+  padding: 20px;
+  width: 70%;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  background: #c2ded7;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+}
+.subscribe .text {
+  font-size: 27px;
+}
+.subscribe button {
+  background: #ff8a00;
+  padding: 5px 25px;
+  height: 41.8px;
+  border: none;
+  position: absolute;
+  right: 276px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  color: white;
+}
+
+.subscribe input {
+  width: 560px;
+  height: 40px;
+  border: none;
+  border-radius: 12px;
+  position: relative;
+}
+
+.flinks {
+  text-align: left;
+  margin: 10px;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #aabbb7;
+  padding-bottom: 40px;
+}
+.footer_links {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  z-index: -1;
+}
+.flinks ul {
+  list-style: none;
+  padding-left: 0%;
+}
+.flinks li {
+  margin: 10px 0px;
+  color: #6b6b6b;
+}
+.flinks p {
+  font-size: 14px;
+}
+.flinks h3 {
+  font-weight: 700;
+  position: relative;
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+.flinks h3::after {
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
+  content: "";
+  width: 60px;
+  height: 2px;
+  background: #ff8a00;
+}
+
+.slogo i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #ff8a00 !important;
+  background: #fff;
+  border-radius: 30px;
+  margin: 0px 5px;
+}
+/* footer ends */
+
+.product_detail {
+  margin-top: 80px;
+  width: 100%;
+  height: 45vh;
+  border: 1px solid black;
+  background: url(./images/job-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+.inner_product_detail {
+  width: 100%;
+  height: 100%;
+  background: #095945a7;
+  color: white;
+  text-align: center;
+
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+.inner_product_detail h2 {
+  font-size: 58px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.inner_product_detail ul {
+  list-style: none;
+  display: flex;
+  padding-left: 0%;
+}
+.inner_product_detail li:nth-child(2) {
+  margin-left: 5px;
+}
+.pdetail {
+  /* border: 1px solid white; */
+  width: 164px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* section building starts */
+
+.building {
+  width: 100%;
+  height: 90vh;
+  margin-top: 100px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+.building_row {
+  display: flex;
+  padding: 0px 200px;
+}
+.build_ldiv {
+  padding-top: 150px;
+  width: 50%;
+  /* border: 1px solid red; */
+}
+.build_ldiv h5 {
+  color: #ff8a00;
+  margin-bottom: 5px;
+  font-size: 16px;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+.build_ldiv h2 {
+  margin-top: 5px;
+  font-size: 40px;
+}
+.build_rdiv {
+  width: 50%;
+  /* border: 1px solid blue; */
+}
+.brow {
+  display: flex;
+  margin-bottom: 20px;
+}
+.brow i {
+  color: #ff8a00;
+  font-size: 40px;
+}
+.brow h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #095945;
+}
+.brow p {
+  margin-top: 10px;
+}
+.inner_row {
+  margin-left: 30px;
+}
+.build_rdiv {
+  display: flex;
+  padding: 50px;
+}
+.build_rdiv .rldiv {
+  /* border: 1px solid red; */
+  width: 50%;
+  height: 100%;
+}
+
+.build_rdiv .rrdiv {
+  /* border: 1px solid yellowgreen; */
+  width: 50%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.rldiv {
+  width: 100%;
+  transform: translateY(20px);
+}
+.rrdiv {
+  transform: translateY(-20px);
+}
+.color_div {
+  width: 100%;
+  height: 260px;
+  background: #ff8a00;
+  padding: 40px 30px;
+  margin: 0px;
+  color: white;
+}
+.color_div h3 {
+  font-size: 23px;
+}
+.color_div p {
+  font-size: 13px;
+}
+.color_div img {
+  height: 40px;
+  width: 40px;
+}
+
+.rrdiv .color_div {
+  background: #367365;
+  transform: translateY(-10px);
+}
+.lowerImage img {
+  width: 100%;
+  height: 100%;
+}
+
+/* section building ends */
+
+/* working section starts */
+
+.working {
+  height: 55vh;
+  width: 100%;
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.working h5 {
+  margin: 10px;
+  letter-spacing: 4px;
+  color: #ff8a00;
+  font-size: 14px;
+}
+.working h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px;
+}
+.working_description {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  padding: 20px;
+}
+.working_div {
+  /* border: 1px solid green; */
+  font-size: 15px;
+  margin: 20px 100px;
+}
+.working_div img {
+  height: 150px;
+  width: 150px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px lightgray;
+  border: none;
+  border-top: 3px solid #ff8a00;
+}
+.working_div h4 {
+  color: #095945 !important;
+  font-weight: 900 !important;
+  margin-bottom: 10px;
+}
+.working_div p {
+  font-size: small;
+}
+
+/* working ends */
+
+/* Book Now section begins */
+
+.bookNow {
+  margin-top: 100px;
+  background: url(./images/bg2.jpg);
+  width: 100%;
+  height: 65vh;
+  overflow: hidden;
+  display: flex;
+}
+.bookrdiv {
+  /* border: 1px solid white; */
+  width: 100%;
+  padding: 100px 100px;
+  text-align: center;
+}
+.bookrdiv h5 {
+  color: #ff8a00;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin-bottom: 5px;
+}
+.bookrdiv h2 {
+  color: white;
+  font-size: 40px;
+  margin-top: 5px;
+  word-spacing: 5px;
+}
+.bookrdiv p {
+  color: white;
+  font-size: 14px;
+  line-height: 25px;
+}
+.bookrdiv button {
+  background: #ff8a00;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.bookNow img {
+  margin-left: 250px;
+}
+/* Book Now section ends */
+
+/* Testimonials section starts */
+
+.Testimonials {
+  width: 100%;
+  height: 70vh;
+  text-align: center;
+  padding-top: 100px;
+}
+.Testimonials h5 {
+  font-size: 18px;
+  letter-spacing: 4px;
+  color: #ff8a00;
+  margin-bottom: 5px;
+}
+.Testimonials h2 {
+  margin-top: 5px;
+  font-size: 40px;
+  word-spacing: 5px;
+}
+.test {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  position: relative;
+}
+.test .test_text {
+  height: 220px;
+  width: 780px;
+  box-shadow: 1px 1px 5px lightgray;
+  align-self: center;
+  border-radius: 110px;
+  font-size: 15px;
+}
+.test i {
+  color: #ff8a00;
+  font-size: 60px;
+  position: absolute;
+  top: 18.5%;
+}
+.test_text_inner {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.test_circle {
+  height: 30px;
+  width: 30px;
+  background: #ff8a00;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 45%;
+  left: 18.2%;
+  animation-name: circleUpDown;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+.test_circle2 {
+  height: 30px;
+  width: 30px;
+  background: #ff8a00;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 45%;
+  right: 18.2%;
+  animation-name: circleUpDown1;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+@keyframes circleUpDown {
+  0% {
+    bottom: 45%;
+    left: 18.2%;
+  }
+  50% {
+    bottom: 43%;
+    left: 18.2;
+  }
+}
+@keyframes circleUpDown1 {
+  0% {
+    bottom: 45%;
+    right: 18.2%;
+  }
+  50% {
+    bottom: 43%;
+    right: 18.2;
+  }
+}
+.limg1 {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 4px solid #ff8a00;
+  left: 14%;
+  top: 20%;
+  animation-name: l1imageUpdown;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+.rimg1 {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 4px solid #ff8a00;
+  right: 14%;
+  top: 20%;
+  animation-name: r1imageUpdown;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes r1imageUpdown {
+  0% {
+    right: 14%;
+    top: 20%;
+  }
+  50% {
+    right: 14%;
+    top: 21%;
+  }
+}
+@keyframes l1imageUpdown {
+  0% {
+    left: 14%;
+    top: 20%;
+  }
+  50% {
+    left: 14%;
+    top: 21%;
+  }
+}
+
+.limg2 {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 4px solid #ff8a00;
+  left: 14%;
+  bottom: 20%;
+  animation-name: l2imageUpdown;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes l2imageUpdown {
+  0% {
+    left: 14%;
+    bottom: 20%;
+  }
+  50% {
+    left: 14%;
+    bottom: 19%;
+  }
+}
+@keyframes r2imageUpdown {
+  0% {
+    right: 14%;
+    bottom: 20%;
+  }
+  50% {
+    right: 14%;
+    bottom: 29%;
+  }
+}
+.rimg2 {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 4px solid #ff8a00;
+  right: 14%;
+  bottom: 20%;
+  animation-name: r2imageUpdown;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.limg3 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 3px solid #ff8a00;
+  bottom: 45%;
+  left: 8.5%;
+}
+.rimg3 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 3px solid #ff8a00;
+  bottom: 45%;
+  right: 8.5%;
+}
+/* Testimonials section ends */
+
+/* Register Section Begins */
+
+.Register {
+  width: 100%;
+  height: 85vh;
+  background: #f6fbf8;
+  margin-top: 100px;
+  padding-top: 150px;
+}
+.Register .regrow1 {
+  display: flex;
+}
+.Register .regldiv {
+  width: 50%;
+  /* border: 1px solid red; */
+  text-align: left;
+  padding-left: 200px;
+  box-sizing: border-box;
+  padding-top: 100px;
+}
+.Register .regrdiv {
+  width: 50%;
+  position: relative;
+  z-index: 4;
+  box-sizing: border-box;
+}
+.regldiv h5 {
+  color: #ff8a00;
+  font-size: 15px;
+  letter-spacing: 3px;
+  margin-bottom: 5px;
+}
+.regldiv h2 {
+  font-size: 40px;
+  color: #095945;
+  margin-top: 5px;
+}
+.regldiv p {
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 200;
+}
+.regldiv button {
+  background: #ff8a00;
+  border: none;
+  color: white;
+  padding: 14px 25px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.regrdiv img {
+  width: 485px;
+  height: 542px;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+
+/* Register section ends  */
+/* -------------------------------------------------------------------------------------- */
+
+/* price section starts */
+
+.Pricing {
+  width: 100%;
+  height: 90vh;
+}
+.pcontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.pbox {
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px lightgray;
+  margin: 15px;
+  position: relative;
+  text-align: center;
+  padding: 20px;
+}
+.pbox h3 {
+  color: #ff8a00;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.pbox p {
+  margin: 0px;
+  font-weight: 800;
+}
+.pbox hr {
+  color: lightgray;
+  font-size: 0.5px;
+}
+.pbox span {
+  margin-top: 0px;
+  font-size: 60px;
+}
+.pimg {
+  margin-top: 40px;
+}
+/* price section ends */
+/* --------------------------------------------------------------------------------------- */
